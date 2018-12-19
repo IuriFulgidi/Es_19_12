@@ -13,12 +13,18 @@ namespace Es_19_12
             //si mette il valore massimo per un int
             int a = int.MaxValue;
 
-            //si stampa
+            //si stampa.
             Console.WriteLine(a);
 
             //si dovrebbe stampare il massimo +1 e va al numero minimo
-            Console.WriteLine(a+1);
-
+            if (a + 1 > a)
+            {
+                Console.WriteLine(a + 1);
+            }
+            else
+            {
+                Console.WriteLine("il numero è troppo grande per essere aumentato");
+            }
             int b = -128;
             int c=-b;
             //b in base 2
