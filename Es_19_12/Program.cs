@@ -35,7 +35,9 @@ namespace Es_19_12
             Console.WriteLine(Convert.ToString(c, 2));
 
             
-            int value=32;
+            int value=0;
+            Console.WriteLine("inserire un valore");
+            value =Convert.ToInt32(Console.ReadLine());
             int somma = value;
 
             //complemento a 2
@@ -46,10 +48,10 @@ namespace Es_19_12
             //volore+(-valore)=0
             somma = somma+value;
 
-            Console.WriteLine($"{value} e {somma}");
-
+            Console.WriteLine($"il complemento a 2 del numero inserito è: {value}");
+            Console.WriteLine($"aggiungendo al numero originale il suo complemento a 2 si ottiene:{somma}");
             //
-            long number = 55555;
+           long number = 55555;
 
             //in base 2
             Console.WriteLine(Convert.ToString(number, 2));
