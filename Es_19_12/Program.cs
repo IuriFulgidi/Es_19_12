@@ -27,6 +27,7 @@ namespace Es_19_12
             }
             int b = -128;
             int c=-b;
+
             //b in base 2
             Console.WriteLine(Convert.ToString(b,2));
 
