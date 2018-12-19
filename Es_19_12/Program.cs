@@ -41,7 +41,6 @@ namespace Es_19_12
             int somma = value;
 
             //complemento a 2
-
             //complemento a 1 + 1
             value = ~value+1;
 
@@ -50,12 +49,14 @@ namespace Es_19_12
 
             Console.WriteLine($"il complemento a 2 del numero inserito è: {value}");
             Console.WriteLine($"aggiungendo al numero originale il suo complemento a 2 si ottiene:{somma}");
+
             //
-           long number = 55555;
+            long number = 55555;
 
             //in base 2
             Console.WriteLine(Convert.ToString(number, 2));
 
+            //un numero da 64 bit in 16 bit e viene "arrotondato"
             short number1 = (short)number;
             Console.WriteLine(number1);
             Console.ReadLine();
